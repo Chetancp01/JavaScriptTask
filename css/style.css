@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#square{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    position: absolute;
+}
+
+.circle{
+    background-color:lightcoral !important;
+    border-radius:50%;
+    transition: all 0.05s ease-in-out;
+}
+
+.radius{
+    background-color:lightgreen !important;
+    border-radius:25px;
+    transition: all 0.05s ease-in-out;
+}
+
+.square{
+    background-color:lightblue !important;
+    border-radius:0px;
+    transition: all 0.05s ease-in-out;
+}
